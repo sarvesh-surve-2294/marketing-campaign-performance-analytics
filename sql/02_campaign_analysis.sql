@@ -226,3 +226,60 @@ SELECT
     END AS roi_category
 FROM marketing_campaigns
 ORDER BY roi DESC;
+
+
+-- =====================================================
+-- Business Insights
+-- =====================================================
+
+-- 1. The dataset contains 25,548 unique marketing campaigns,
+--    providing sufficient data for campaign performance analysis.
+
+-- 2. Marketing campaigns generated over 1.70 billion impressions,
+--    25.6 million clicks, and 322K+ conversions with overall
+--    revenue exceeding advertising spend.
+
+-- 3. Average campaign performance shows a CTR of 1.82%,
+--    ROAS of 1.08, and ROI of 7.62%, indicating an overall
+--    positive return from marketing investments.
+
+-- 4. Google Search Sales campaigns consistently generated the
+--    highest revenue, demonstrating the effectiveness of
+--    search-based conversion campaigns.
+
+-- 5. Top ROAS campaigns achieved exceptional returns with
+--    relatively low advertising spend, highlighting highly
+--    efficient budget utilization.
+
+-- 6. Highest ROI campaigns were primarily conversion-focused,
+--    indicating strong profitability relative to investment.
+
+-- 7. Awareness campaigns generated little or no direct revenue,
+--    which is expected as their primary objective is brand
+--    visibility rather than immediate conversions.
+
+-- 8. Several high-budget campaigns produced low or zero revenue,
+--    suggesting that increased spending alone does not guarantee
+--    better business outcomes.
+
+-- 9. The most efficient campaigns combined high CTR,
+--    strong conversion rates, and excellent ROAS,
+--    making them suitable candidates for scaling.
+
+-- 10. Google Search conversion campaigns consistently outperformed
+--     other campaign types across revenue, profitability,
+--     and efficiency metrics.
+
+-- 11. Profit analysis revealed that only a small group of campaigns
+--     contributed the majority of overall profit.
+
+-- 12. Revenue distribution indicates that a limited number of
+--     campaigns generated a significant share of total revenue,
+--     following the Pareto principle.
+
+-- 13. Campaign classification using ROAS helps identify campaigns
+--     suitable for scaling versus those requiring optimization.
+
+-- 14. ROI categorization further supports budget allocation by
+--     distinguishing highly profitable campaigns from
+--     underperforming ones.
