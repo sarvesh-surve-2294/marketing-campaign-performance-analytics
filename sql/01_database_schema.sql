@@ -22,6 +22,25 @@ SHOW VARIABLES LIKE 'local_infile';
 
 SHOW VARIABLES LIKE 'local_infile';
 
+SELECT * FROM marketing_campaigns;
+
+SHOW VARIABLES LIKE 'pid_file';
+
+SHOW VARIABLES LIKE 'secure_file_priv';
+
+LOAD DATA INFILE
+'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/marketing_campaign_mysql.csv'
+INTO TABLE marketing_campaigns
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n'
+IGNORE 1 ROWS;
+
+SELECT COUNT(*) AS total_rows
+FROM marketing_campaigns;
+
+SELECT COUNT(*) FROM marketing_campaigns;
+
 CREATE TABLE marketing_campaigns (
 
     date DATE,
